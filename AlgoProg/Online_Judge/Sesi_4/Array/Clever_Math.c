@@ -10,16 +10,16 @@ int main()
         int a, b;
         scanf("%d %d", &a, &b);
 
-        int carry = 0, result = 0, modulo = 10;
+        int result, total = 0, modulo = 10;
         while (a != 0 || b != 0)
         {
-            carry = ((a % modulo) + (b % modulo)) % modulo;
-            result += carry;
+            result = ((a % modulo) + (b % modulo)) % modulo;
+            total += result;
             a -= (a % modulo);
             b -= (b % modulo);
             modulo *= 10;
         }
-        printf("Case #%d: %d\n", t, result);
+        printf("Case #%d: %d\n", t, total);
     }
     return 0;
 }
