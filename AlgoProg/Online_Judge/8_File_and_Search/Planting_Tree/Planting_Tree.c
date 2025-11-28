@@ -22,7 +22,6 @@ int main()
     Student database[101];
     for (int k = 0; k < n; k++)
     {
-        // HMMMM
         fscanf(fp, "%[^#]#%[^\n]\n", database[k].name, database[k].tree);
     }
 

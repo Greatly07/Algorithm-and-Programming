@@ -15,7 +15,6 @@ int main()
     for (int t = 1; t <= testCases; t++)
     {
         int strChecker[26] = {0};
-        int alphaChecker[26] = {0};
         char str[101];
         fscanf(fp, "%s", str);
         int strLen = strlen(str);
@@ -26,32 +25,28 @@ int main()
         {
             char a, b;
             fscanf(fp, " %c %c", &a, &b);
-            if (alphaChecker[a - 'A'] == 0)
+            if (strChecker[a - 'A'] == 0)
             {
                 for (int j = 0; j < strLen; j++)
                 {
                     if (str[j] == a)
                     {
                         str[j] = b;
-                        strChecker[str[j] - 'A'] = 1;
                     }
                 }
-                alphaChecker[a - 'A'] = 1;
+                strChecker[a - 'A'] = 1;
             }
         }
 
         int charBin[26] = {0};
         for (int i = 0; i < strLen; i++)
         {
-            if (strChecker[str[i] - 'A'] > 0)
-            {
-                charBin[str[i] - 'A']++;
-            }
+            charBin[str[i] - 'A']++;
         }
 
         for (int i = 0; i < 26; i++)
         {
-            if (strChecker[i] > 0 && charBin[i] > 0)
+            if (charBin[i] > 0)
             {
                 printf("%c %d\n", (char)(i + 'A'), charBin[i]);
             }
