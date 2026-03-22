@@ -1,0 +1,28 @@
+http://visualgo.net/hashtable
+Hash Function : Division
+Handling Collision : Linear Probing
+
+Hast Table index : 13
+Hash Function : n mod 13
+
+Insert Sample : 55, 72, 24, 52, 39, 26, 13, 0
+55 -> 3 
+72 -> 7
+24 -> 11
+52 -> 0
+39 -> 0
+26 -> 0
+13 -> 0
+0 -> 0
+
+double hashing : 
+
+52 : 0 + (52 % 13) = 0
+39 : 0 + (39 % 13) = 0
+
+
+https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
+Hash Function : Division
+Handling Collision : Chaining (insert head)
+
+https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-prime-number-as-a-mod-in-a-hashing-function/64191
