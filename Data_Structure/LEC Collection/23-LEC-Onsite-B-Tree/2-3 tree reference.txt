@@ -1,0 +1,13 @@
+usfca : 
+http://www.cs.usfca.edu/~galles/visualization/BTree.html
+ambil dr subtree kiri
+
+penjelasan dan info ttg keuntungan B-Tree utk meminimalisir jumlah blok di file system
+https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/BTree.html
+
+Understanding B-Trees: The Data Structure Behind Modern Databases
+https://www.youtube.com/watch?v=K1a2Bk8NrYQ
+
+
+https://youtu.be/5Pc18ge9ohI?t=624
+Writing My Own Database From Scratch

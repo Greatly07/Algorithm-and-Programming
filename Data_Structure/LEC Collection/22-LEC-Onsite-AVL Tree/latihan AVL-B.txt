@@ -1,0 +1,5 @@
+Latihan melengkapi AVL-B.cpp s/d jam 13:45
+
+1. getBalanceFactor
+2. rightRotate
+3. insert case 3 (LR) 

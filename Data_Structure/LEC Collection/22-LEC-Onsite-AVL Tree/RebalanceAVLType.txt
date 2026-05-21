@@ -1,0 +1,11 @@
+CN = Critical Node
+Violation Type :
+1. LL = RightRotate(CN)
+2. RR = LeftRotate(CN)
+3. LR = 
+   a. LeftRotate(left child of CN)
+   b. RightRotate(CN)
+4. RL = 
+   a. RightRotate(right child of CN)
+   b. LeftRotate(CN)
+     

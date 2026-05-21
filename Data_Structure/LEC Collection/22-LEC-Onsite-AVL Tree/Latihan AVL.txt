@@ -1,0 +1,28 @@
+http://www.cs.usfca.edu/~galles/visualization/AVLtree.html
+
+
+insert : 
+60,65,25,50,55,40,30,15,20
+del : 
+15,50,65,25,20,30
+
+
+Insert :
+60
+65
+25
+50
+55 : CN=25, RR
+40 : CN=60, LL
+30 : CN=25, RL
+15 : 
+20 : CN=25, LR
+
+Del : 
+15
+50 : CN=30, LR
+65
+25
+20
+30 : CN=40, RL
+

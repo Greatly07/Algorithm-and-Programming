@@ -1,0 +1,10 @@
+usfca :
+Del internal node : ambil subtree ki (predecessor)
+http://www.cs.usfca.edu/~galles/visualization/AVLtree.html
+
+visualgo :
+Del internal node : ambil subtree kn (successor)
+https://visualgo.net/en/bst
+
+AVL Tree Visualization 1-20-2-19
+https://www.youtube.com/watch?v=mGF61O21W-c
