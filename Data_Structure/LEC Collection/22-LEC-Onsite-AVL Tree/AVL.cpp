@@ -5,7 +5,7 @@ struct Data
 {
 	int value;
 	int height;
-	struct Data *left, *right, *parent;
+	struct Data *left, *right;
 };
 
 int max(int a, int b)
